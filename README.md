@@ -1,4 +1,4 @@
-# Online-Bus-Booking-System
+## Online-Bus-Booking-System
 HTML, CSS, PHP, MYSQL
 Projectworlds Bus is an online bus ticket booking and reservation software, built on the powerful open source language PHP and MySQL with Bootstrap framework that allows you to manage your bus inventory, fares, routes, schedules as well as your entire back office. It is a powerful software designed with the main intention of generating a dynamic and automated system for all bus booking and reservation operations. The True Bus will promote your fleet management to new and existing customers through a range of options.
 
