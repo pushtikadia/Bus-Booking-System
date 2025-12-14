@@ -1,93 +1,82 @@
-## Online-Bus-Booking-System
-HTML, CSS, PHP, MYSQL
-Projectworlds Bus is an online bus ticket booking and reservation software, built on the powerful open source language PHP and MySQL with Bootstrap framework that allows you to manage your bus inventory, fares, routes, schedules as well as your entire back office. It is a powerful software designed with the main intention of generating a dynamic and automated system for all bus booking and reservation operations. The True Bus will promote your fleet management to new and existing customers through a range of options.
+# Online Bus Booking System 🚌
 
-Online Bus Booking System Modules
-ADMIN MODULE
-AGENT MODULE
-USER MODULE
-Features of Online Bus Booking System
-ADMIN MODULE 
+**Online Bus Booking System** (also known as True Bus) is a dynamic and automated bus reservation software built with **PHP, MySQL, and Bootstrap**. It is designed to manage bus inventories, fares, routes, schedules, and bookings efficiently, offering distinct interfaces for Admins, Agents, and Users.
 
-Admin has overall control of the system. The main functions of admin are given below.
+## 📂 Repository Structure
 
-Bus Management
+The codebase is organized into modular folders to handle the frontend, backend, and database logic effectively:
 
-Route Management
+### 1\. Core Application (`root/`)
 
-Board Point Management
+  * **`index.php`:** The main entry point for the user interface, displaying available buses and search options.
+  * **`bus_info.php`:** Detailed view for a specific bus, allowing users to select seats and book tickets.
+  * **`bus.sql`:** The complete database schema containing tables for users, orders, buses (`posts`), and routes.
 
-Drop Point Management
+### 2\. Administration (`admin/`)
 
-Promo Code management
+  * **`admin/index.php`:** The central dashboard for administrators to view stats, manage buses, and oversee the system.
+  * **Management Scripts:** Includes scripts for adding buses, managing routes, viewing bookings, and processing cancellations.
 
-Gallery
+### 3\. Components & Utilities (`includes/`)
 
-Add Agent
+  * **`db.php`:** Handles the database connection to MySQL.
+  * **`header.php` / `footer.php`:** Reusable UI components to maintain a consistent layout across all pages.
+  * **`navigation.php`:** Contains the main menu and login/registration links.
 
-Cancellation
+## ✨ Key Features
 
-View Booking Details
+### 👤 User Module
 
-Seat Layout
+  * **Registration & Login:** Secure user accounts for managing bookings.
+  * **Bus Search:** Find buses by route, date of journey, and availability.
+  * **Seat Selection:** Visual interface to view and select available seats.
+  * **Ticket Booking:** Integrated booking flow with promo code support and payment options.
 
-View Rating Details
+### 🛠 Admin Module
 
-Admin login
-username - amit
+  * **Fleet Management:** Add, update, or delete bus details, routes, and schedules.
+  * **Booking Oversight:** View all active bookings, passenger details, and cancellation requests.
+  * **Route & Pricing:** Manage boarding/dropping points and set fares for different routes.
+  * **User Management:** View registered users and manage agent accounts.
 
-password amit
+## 🚀 Getting Started
 
-USER MODULE
+### Prerequisites
 
-Can register or login
-Book bus.
-View and select the seat
-Use  promo code
-Book the ticket by selecting route, date of journey and the return date
-View available buses
-Payment integrated
-Brief overview of the technology:
-Front end: HTML, CSS, JavaScript
+  * **Server:** XAMPP, WAMP, or LAMP (Apache/MySQL/PHP).
+  * **Browser:** Any modern web browser (Chrome, Firefox, Edge).
 
-HTML: HTML is used to create and save web document. E.g. Notepad/Notepad++
-CSS : (Cascading Style Sheets) Create attractive Layout
-Bootstrap : responsive design mobile freindly site
-JavaScript: it is a programming language, commonly use with web browsers.
-Back end: PHP, MySQL
+### Installation Steps
 
-PHP: Hypertext Preprocessor (PHP) is a technology that allows software developers to create dynamically generated web pages, in HTML, XML, or other document types, as per client request. PHP is open source software.
-MySQL: MySql is a database, widely used for accessing querying, updating, and managing data in databases.
-Software Requirement(any one)
-WAMP Server
-XAMPP Server
-MAMP Server
-LAMP Server
-Installation Steps
-1. Download zip file and Unzip file on your local server.
-2. Put this file inside "c:/wamp/www/" .
-3. Database Configuration
-Open phpmyadmin
-Create Database named bus.
-Import database bus.sql from downloaded folder(inside database)
-4. Open Your browser put inside "http://localhost/Online Bus Booking System
+1.  **Download & Extract:**
+    Download the project zip file and extract it into your server's root directory (e.g., `C:/wamp/www/` or `C:/xampp/htdocs/`).
 
-Most Related Search
+2.  **Database Configuration:**
 
-online bus booking system in php,
-online bus booking system project in php,
-online bus ticket booking system in php,
-online bus seat booking system in php,
-online bus booking system php mysql,
-online bus ticket booking system project in php,
-online bus pass booking system project in php,
-online ticket booking system in php,
-online movie ticket booking system in php,
-online cinema ticket booking system in php,
-online movie ticket booking system in php code,
-online bus ticket booking system php source code,
-online movie ticket booking system in php ppt,
+      * Open **phpMyAdmin** (`http://localhost/phpmyadmin`).
+      * Create a new database named `bus`.
+      * Import the `bus.sql` file provided in the project folder.
 
-visite https://projectworlds.in
+3.  **Run the Project:**
+    Open your browser and navigate to:
 
-#whatsapp 6263056779 
+    ```
+    http://localhost/Online Bus Booking System
+    ```
+
+### 🔑 Default Login Credentials
+
+To access the Admin Panel:
+
+  * **Username:** `amit`
+  * **Password:** `amit`
+
+## 🛠 Tools Used
+
+  * **HTML5 & CSS3:** For structure and layout.
+  * **Bootstrap:** To ensure a mobile-friendly, responsive design.
+  * **JavaScript:** For client-side interactivity.
+  * **PHP:** Server-side scripting language for backend logic.
+  * **MySQL:** Relational database for storing user and bus data.
+
+Created by **[Pushti Kadia](https://github.com/pushtikadia)**
