@@ -79,4 +79,4 @@ To access the Admin Panel:
   * **PHP:** Server-side scripting language for backend logic.
   * **MySQL:** Relational database for storing user and bus data.
 
-Created by **[Pushti Kadia](https://github.com/pushtikadia)**
+*Created by [Pushti Kadia](https://github.com/pushtikadia)*
